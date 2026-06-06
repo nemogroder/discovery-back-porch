@@ -381,6 +381,8 @@ h1 {
 }
 
 .content-card {
+    border-left: 4px solid #2c2c2c;
+
     background: #1c1c1c;
 
     padding: 1.5rem;
@@ -392,6 +394,18 @@ h1 {
 
 .content-card h2 {
     margin-bottom: .75rem;
+}
+
+.content-card.overview {
+    border-left-color: #c13dff;
+}
+
+.content-card.notes {
+    border-left-color: #e8dd17;
+}
+
+.content-card.links {
+    border-left-color: #2a8dff;
 }
 
 /* ---------- Article Pages ---------- */
@@ -600,7 +614,7 @@ footer {
 }
 
 .footer-links a {
-    color: #00c896;
+    color: #ff8c1a;
 
     text-decoration: none;
 
