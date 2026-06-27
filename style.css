@@ -404,6 +404,10 @@ h1 {
     border-left-color: #e8dd17;
 }
 
+.content-card.notes a {
+    color: #33d6aa;
+}
+
 .content-card.links {
     border-left-color: #2a8dff;
 }
@@ -418,6 +422,12 @@ h1 {
     padding: 2rem;
 
     line-height: 1.8;
+}
+
+.article-card a {
+    color: #00c896;
+
+    text-decoration: none;
 }
 
 .article-card h2 {
